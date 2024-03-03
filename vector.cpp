@@ -19,5 +19,10 @@ int main(){
     }
     cout<<endl;
 
+    vector <int> brr(10);
+
+    cout<<"Size is :" << brr.size()<<endl;
+    cout<<"Capacity is :"<<brr.capacity()<<endl;
+ 
     return 0;
 }
